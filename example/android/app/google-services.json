@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "899841315399",
+    "project_id": "kbeacon-bfa79",
+    "storage_bucket": "kbeacon-bfa79.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:899841315399:android:43e535a623f3541851d762",
+        "android_client_info": {
+          "package_name": "com.kbeacon.kbeacon_example"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "899841315399-lp14verrqf76flui4o6s6suebb36jf68.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kbeacon.kbeacon_example",
+            "certificate_hash": "9335268c0f757aa921877651da82fbde43e43281"
+          }
+        },
+        {
+          "client_id": "899841315399-eapgh7bu5unjm8rpkjo5p9dvlu6cmnrh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASTHVV-34zr_-ZARuJXOgodA-5CqwwPgU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "899841315399-eapgh7bu5unjm8rpkjo5p9dvlu6cmnrh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
