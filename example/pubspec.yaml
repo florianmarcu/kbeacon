@@ -27,7 +27,7 @@ dependencies:
     path: ../
   flutter_bluetooth_serial:
   # background_fetch:
-  workmanager: ^0.4.1
+  workmanager: 
   cloud_firestore:
   firebase_core:
   shared_preferences:
@@ -36,6 +36,7 @@ dependencies:
   device_info_plus:
   shared_preferences_android:
   shared_preferences_ios:
+  flutter_blue:
 
 dev_dependencies:
   flutter_test:

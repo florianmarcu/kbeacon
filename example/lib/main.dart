@@ -113,7 +113,7 @@ void onStart(ServiceInstance service) async{
   var macAddress = await FirebaseFirestore.instance.collection('config').doc('config').get().then((doc) => doc.data()!['mac_address']);
   print(macAddress);
   if(macAddress != null) {
-    if(await Kbeacon.connect(macAddress) == "connected"){
+    if(await Kbeacon.connect(macAddress) == "connected"){ 
       await Future.delayed(Duration(milliseconds: 5000));
       Kbeacon.enableButtonTrigger(macAddress);
       Kbeacon.buttonClickEvents.listen((event) {
@@ -196,13 +196,13 @@ void onStart(ServiceInstance service) async{
   print("START2");
 }
 
-@pragma('vm:entry-point')
-void callbackDispatcher() {
-  Workmanager().executeTask((task, inputData) {
-    print("Native called background task: 1"); //simpleTask will be emitted here.
-    return Future.value(true);
-  }); 
-}
+// @pragma('vm:entry-point')
+// void callbackDispatcher() {
+//   Workmanager().executeTask((task, inputData) {
+//     print("Native called background task: 1"); //simpleTask will be emitted here.
+//     return Future.value(true);
+//   }); 
+// }
 
 class MyApp extends StatefulWidget {
   const MyApp({Key? key}) : super(key: key);
